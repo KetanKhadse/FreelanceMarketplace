@@ -10,4 +10,10 @@
     <Folder Include="Helper\JqueryDT\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.4" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.6.2" />
+  </ItemGroup>
+
 </Project>
