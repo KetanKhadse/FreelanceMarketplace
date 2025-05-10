@@ -1,7 +1,13 @@
+using Data.Context;
+using Microsoft.Extensions.Options;
+using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Connection")));
 
 var app = builder.Build();
 
@@ -19,7 +25,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

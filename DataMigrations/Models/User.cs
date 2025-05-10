@@ -17,7 +17,7 @@ namespace Data.Models
         public string userPassword { get; set; }
         [Required]
         public string userEmail { get; set; }
-        public string USerRole { get; set; }
+        public string UserRole { get; set; }
 
         public DateTime createdDate { get; set; }= DateTime.Now;
 
