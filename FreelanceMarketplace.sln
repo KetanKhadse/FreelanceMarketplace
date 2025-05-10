@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonliberaryCore", "Commo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreelanceMarketplace_Data", "FreelanceMarketplace_Data\FreelanceMarketplace_Data.csproj", "{04DDC7CB-453A-4A54-B23E-16F8AD39CFE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMigrations", "DataMigrations\DataMigrations.csproj", "{D11F0FBE-CC75-47BA-B2A0-3C1F7242D63A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "DataMigrations\Data.csproj", "{D11F0FBE-CC75-47BA-B2A0-3C1F7242D63A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "Migrations\Migrations.csproj", "{936785E5-4561-4077-9F9C-C04C542F99E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D11F0FBE-CC75-47BA-B2A0-3C1F7242D63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11F0FBE-CC75-47BA-B2A0-3C1F7242D63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11F0FBE-CC75-47BA-B2A0-3C1F7242D63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{936785E5-4561-4077-9F9C-C04C542F99E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936785E5-4561-4077-9F9C-C04C542F99E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936785E5-4561-4077-9F9C-C04C542F99E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936785E5-4561-4077-9F9C-C04C542F99E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
