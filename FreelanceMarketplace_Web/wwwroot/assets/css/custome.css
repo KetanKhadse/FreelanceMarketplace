@@ -1,0 +1,76 @@
+
+
+/* @media (min-width:1440px) and (max-width: 2560px){
+    .logo_main_txt {
+        font-weight: 700;
+        font-size: 25px;
+        vertical-align: text-bottom;
+        margin-left: 5px;
+        line-height: 1;
+        color: white;
+    }
+
+    .logo_light_txt{
+        font-weight: 700;
+        font-size: 25px;
+        vertical-align: text-bottom;
+        margin-left: 5px;
+        line-height: 1;
+        color: #343a40!important;
+    }
+} */
+.checkout-item_2{
+    position: relative;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    border-left: 2px solid var(--bs-link-color);
+}
+
+.btn_Create{
+    width: 38px;
+    font-size: 25px;
+}
+
+
+/* css on Create Order Table Border */
+.Create_Border{
+    border: 1px solid #776acf;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* css for Full icon in TS */
+.Cyl_Empty_icon{
+    padding-right: 4px;
+    /* padding-top: 4px; */
+    /* margin-top: 2px; */
+    color: red;
+    font-size: 20px;
+    transform: rotate(270deg);
+}
+
+.Cyl_Full_icon{
+    /* margin-right: 14px; */
+    padding-right: 4px;
+    /* padding-top: 4px; */
+    /* margin-top: 2px; */
+    color: green;
+    font-size: 20px;
+    transform: rotate(270deg);
+}
+
+.Empty_Cyl_Alignment{
+    margin-left: -10px;
+}
+
+.RemoveMargintop{
+    margin-top: 0px !important;
+}
+
+.selectt{
+    display: none;
+}
+
+.Cor_Red{
+    color: red;
+}
