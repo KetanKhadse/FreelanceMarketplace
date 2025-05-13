@@ -28,7 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CommonliberaryCore\CommonliberaryCore.csproj" />
     <ProjectReference Include="..\DataMigrations\Data.csproj" />
+    <ProjectReference Include="..\FreelanceMarketplace_Data\FreelanceMarketplace_Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -14,6 +14,7 @@ namespace Data.Context
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
 
+
         }
         public DbSet<User> users { get; set; }  
         public DbSet<Jobs> jobs { get; set; }
